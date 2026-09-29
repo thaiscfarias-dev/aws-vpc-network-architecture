@@ -63,5 +63,5 @@ Implantação do `Lab NAT gateway` na sub-rede pública acoplado a um Elastic IP
 ### 7. Teste de Conectividade da Instância Privada
 Acesso à *Private Instance* (`10.0.3.88`) realizado com sucesso a partir do *Bastion Host* (`10.0.0.237`) via SSH. A conectividade de saída para a internet foi validada executando requisições na linha de comando (`curl -I https://aws.amazon.com`), confirmando que o *NAT Gateway* está roteando o tráfego de saída corretamente enquanto a instância permanece isolada de conexões externas diretas.
 
-[![Connectivity Test Success](./07-connectivity-test-success.png)](./07-connectivity-test-success.png)
+[![Connectivity Test Success](screenshots/07-connectivity-test-success.png)
 
